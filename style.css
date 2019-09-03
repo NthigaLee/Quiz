@@ -3,4 +3,16 @@
 }
 .score{
     display: none;
+    
+}
+body{
+    background-image:url(image1.png);
+}
+.jumbotron{
+    opacity: 0.8;
+    background-color:#5876BA;
+    
+}
+h1{
+    font-family: 'Monoton',cursive;
 }

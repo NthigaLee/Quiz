@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Quiz</title>
+    <link href="https://fonts.googleapis.com/css?family=Actor|Lacquer|Merienda|Monoton&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="style.css">
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
@@ -13,9 +14,11 @@
   <script src="scripts.js"></script>
 </head>
 <body>
+    <div class="container">
+    <div class="jumbotron">
     <h1>Quiz Time!</h1>
-    <div id="levels">
-    <h2 id="top">Select what you can handle:</h2>
+    
+    <h2>Select what you can handle:</h2>
     <div class="row" id="difficulty">
         <div class="col-md-2">
             <div class="clickableeasy">
@@ -35,8 +38,10 @@
 
         </div>
     </div>
+</div>
 
 </div>
+     <div class="container">
      <div class="well">
      
     <div class="questions" id="easy">
@@ -85,7 +90,7 @@
                 JavaScript
             </label>
         </div><br>
-        <button id="submit1" name="button" type="submit" class="btn btn-success">I'm done..</button>
+        <button id="submit2" name="button" type="submit" class="btn btn-success">I'm done..</button>
 
     </div>
     
@@ -193,9 +198,12 @@
     
     
 </div>
+</div>
             <div class="score">
                     <h2>Your score is:</h2><br>
-                    <div id="output"> </div>
+                    <div id="output"> </div><br>
+    
+
             </div>
                 
         

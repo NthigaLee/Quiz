@@ -11,17 +11,21 @@ $(document).ready(function(){
         }); 
     });
 
-    $(".questions#hard").submit(function(){
-     $(".questions").hide();
-    var a=parseInt($("input:radio[name=answer1]:checked").val());
-    var b=parseInt($("input:radio[name=answer2]:checked").val());
-    var c=parseInt($("input:radio[name=answer3]:checked").val());
-    var result=sum([a,b,c]);
-    
-    alert(result);
-    $("#output").text(result);
-   
-});
+    var numbers = [1,2,3];
 
+    numbers.forEach(function(num){
+        $("#submit"+num).click(function(){
+    
+            var a=parseInt($("input:radio[name=answer1]:checked").val());
+            var b=parseInt($("input:radio[name=answer2]:checked").val());
+            var c=parseInt($("input:radio[name=answer3]:checked").val());
+            var result= a+b+c;
+        $(".questions").hide();  
+        $(".score").fadeToggle(1000);
+        $("#output").text(result);
+        
+            
+    });  
+});
 });   
    
