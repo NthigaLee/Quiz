@@ -1,6 +1,7 @@
 .questions{
     display:none;
 }
+
 .score{
     display: none;
     
@@ -11,8 +12,68 @@ body{
 .jumbotron{
     opacity: 0.8;
     background-color:#5876BA;
-    
+    text-align: center;
 }
 h1{
-    font-family: 'Monoton',cursive;
+    font-family: 'Monoton',cursive; 
+    background: linear-gradient(to right, red, orange , yellow, green, cyan, blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 80px;
 }
+h2{
+font-family: 'Lacquer',sans-serif;
+font-size: 50px;
+text-shadow: 4px 4px 4px #aaa;
+}
+
+#difficulty{
+    font-family: 'Merienda',cursive;
+}
+#difficulty:hover{
+    font-family: 'Merienda',cursive;
+    font-weight: 700;
+}
+.clickableeasy:hover{
+    background-color: rgb(79, 182, 110);
+    text-shadow: 4px 4px 4px #aaa;
+    padding: 10px;
+    border-radius: 8px;
+    animation-duration: 0.5s;
+  animation-name: up-bump 0.4s ease;
+}
+.clickablemedium:hover{
+    background-color:rgb(219, 177, 60);
+    padding: 10px;
+    border-radius: 8px;
+    animation-duration: 0.5s;
+  animation-name: up-bump 0.4s ease;
+}
+.clickablehard:hover{
+    background-color:#F36447;
+    padding: 10px;
+    border-radius: 8px;
+    animation-duration: 0.5s;
+  animation-name:  up-bump 0.8s ease;
+}
+.well{
+    
+    background:rgb(38, 122, 196);
+
+    font-family: 'Actor',sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    }
+.score{
+    text-align: center;
+}
+#output{
+    font-size: 100px;
+    
+}
+
+  @keyframes up-bump {
+    0% { padding-top: 2em; }
+    50% { padding-top: 1.5em; }
+    100% { padding-top: 2em; }
+
