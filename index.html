@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <script src="scripts.js"></script>
+</head>
+<body>
+    <h1>Quiz Time!</h1>
+    <div id="levels">
+    <h2>Select what you can handle:</h2>
+    <select name="difficulty" id="difficulty" class="form-control">
+        <option>Is this all you got</option>
+        <option>Well, not that easy..</option>
+        <option>Challenge me!!</option>
+    </select>
+
+</div>
+    <div class="questions" id="easy">
+        <p>What do we call a data structure, which can store a fixed-size collection of elements of the same data type?</p>
+        <div class="radio">
+            <label>
+                <input type="radio" name="answer" value="0">
+                Integer
+            </label><br>
+            <label>
+                <input type="radio" name="answer" value="20">
+                Array
+            </label><br>
+            <label>
+                <input type="radio" name="answer" value="0">
+                HTML
+            </label>
+        </div>
+        <p>Which one isn't a programming language?</p>
+        <div class="radio">
+            <label>
+                <input type="radio" name="answer" value="20">
+                Windows
+            </label><br>
+            <label>
+                <input type="radio" name="answer" value="0">
+                C++
+            </label><br>
+            <label>
+                <input type="radio" name="answer" value="0">
+                Python
+            </label>
+        </div>
+        <p>What is JS in full?</p>
+        <div class="radio">
+            <label>
+                <input type="radio" name="answer" value="0">
+                Jungle Switch
+            </label><br>
+            <label>
+                <input type="radio" name="answer" value="0">
+                Java Script
+            </label><br>
+            <label>
+                <input type="radio" name="answer" value="20">
+                JavaScript
+            </label>
+        </div>
+
+    </div>
+    <div class="questions" id="medium">
+        <p>Local variables are declared outside any function, and they can be accessed (used) on any function in the </p>
+        <div class="radio">
+            <label>
+                <input type="radio" name="answer" value="0">
+                True
+            </label><br>
+            <label>
+                <input type="radio" name="answer" value="20">
+                False
+            </label>
+        
+                
+        </div>
+        <p>An algorithm is:  </p>
+        <div class="radio">
+            <label>
+                <input type="radio" name="answer" value="20">
+                a set of instructions for accomplishing a well-defined task.
+            </label><br>
+            <label>
+                <input type="radio" name="answer" value="0">
+                a process or a relation that associates each element x of a set X, the domain, to a single element y of another set Y (possibly the same set).
+            </label><br>
+            <label>
+                <input type="radio" name="answer" value="0">
+                a symbol that tells the compiler to perform specific mathematical or logical manipulations.
+            </label>
+        </div>
+        <p>Which one isn't a method is primarily used to get the values of form elements such as input, select and textarea?</p>
+        <div class="radio">
+            <label>
+                <input type="radio" name="answer" value="20">
+                .get();
+            </label><br>
+            <label>
+                <input type="radio" name="answer" value="0">
+                .text();
+            </label><br>
+            <label>
+                <input type="radio" name="answer" value="0">
+                .val();
+            </label>
+        </div>
+        <div class="questions" id="hard">
+            <p>Select a non-falsy value:</p>
+        <div class="radio">
+            <label>
+                <input type="radio" name="answer" value="0">
+                ""
+            </label><br>
+            <label>
+                <input type="radio" name="answer" value="0">
+                undefined
+            </label><br>
+            <label>
+                <input type="radio" name="answer" value="20">
+                NAN
+            </label><br>
+            <label>
+                <input type="radio" name="answer" value="0">
+                null
+            </label>
+        </div>
+            <p>What are used to style particular parts of an element, rather than the whole thing?</p>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="answer" value="0">
+                    Classes
+                </label><br>
+                <label>
+                    <input type="radio" name="answer" value="20">
+                    Pseudo elements
+                </label><br>
+                <label>
+                    <input type="radio" name="answer" value="0">
+                    IDs
+                </label>
+            </div>
+            <p>Which one matches 'x' only if 'x' is not followed by 'y'?</p>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="answer" value="20">
+                    (?<=y)x
+                </label><br>
+                <label>
+                    <input type="radio" name="answer" value="0">
+                    x(?=y)
+                </label><br>
+                <label>
+                    <input type="radio" name="answer" value="0">
+                    x(?!y)
+                </label>
+            </div>
+</body>
+</html>
